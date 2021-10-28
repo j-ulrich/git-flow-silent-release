@@ -1,0 +1,16 @@
+{
+	"plugins": {
+		"@j-ulrich/release-it-regex-bumper": {
+			"out": [
+				{
+					"files": [ "README.md", "LICENSE" ],
+					"search": {
+						"pattern": "((?:\\\\)?[Cc])opyright (.*?)(\\d+-)?(\\d+)",
+						"flags": "g"
+					},
+					"replace": "$1opyright $2${3}{{now:yyyy}}"
+				}
+			]
+		}
+	}
+}
