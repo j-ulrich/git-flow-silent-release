@@ -1,17 +1,17 @@
 {
-	"name": "@j-ulrich/gitflowsilentrelease",
+	"name": "@j-ulrich/git-flow-silent-release",
 	"version": "0.1.0",
 	"description": "Performs a `git flow release finish` without any prompts",
 	"main": "main.js",
 	"bin": {
-		"gitFlowSilentRelease": "./main.js"
+		"git-flow-silent-release": "./main.js"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/j-ulrich/gitFlowSilentRelease.git"
+		"url": "git+https://github.com/j-ulrich/git-flow-silent-release.git"
 	},
 	"keywords": [
 		"git",
@@ -22,9 +22,9 @@
 	"author": "Jochen Ulrich <jochenulrich@t-online.de>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/j-ulrich/gitFlowSilentRelease/issues"
+		"url": "https://github.com/j-ulrich/git-flow-silent-release/issues"
 	},
-	"homepage": "https://github.com/j-ulrich/gitFlowSilentRelease#readme",
+	"homepage": "https://github.com/j-ulrich/git-flow-silent-release#readme",
 	"dependencies": {
 		"yargs": "^17.2.1"
 	},

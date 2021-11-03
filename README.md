@@ -1,4 +1,4 @@
-# gitFlowSilentRelease #
+# git-flow-silent-release #
 
 > Performs a `git flow release finish` without any prompts
 
@@ -6,13 +6,13 @@
 # Installation #
 
 ```
-npm install --save-dev @j-ulrich/gitflowsilentrelease
+npm install --save-dev @j-ulrich/git-flow-silent-release
 ```
 
 # Usage #
 
 ```
-npx gitFlowSilentRelease [--dry-run] [--help|-h] [--release-message|-m <release-message>]
+npx git-flow-silent-release [--dry-run] [--help|-h] [--release-message|-m <release-message>]
                          <version>
 
 Performs a `git flow release finish` without any prompts.
