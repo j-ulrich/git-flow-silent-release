@@ -1,6 +1,6 @@
 {
 	"name": "@j-ulrich/git-flow-silent-release",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Performs a `git flow release finish` without any prompts",
 	"main": "main.js",
 	"bin": {
