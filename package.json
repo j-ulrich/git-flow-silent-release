@@ -21,6 +21,9 @@
 	],
 	"author": "Jochen Ulrich <jochenulrich@t-online.de>",
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
 	"bugs": {
 		"url": "https://github.com/j-ulrich/git-flow-silent-release/issues"
 	},
