@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { execSync } = require( 'child_process' );
 const yargs = require( 'yargs' );
 const { hideBin: yargsHideBin } = require('yargs/helpers')
