@@ -8,7 +8,7 @@ This changelog follows the [Keep a Changelog](https://keepachangelog.com) format
 --
 
 
-## Unreleased ##
+## [1.0.1] - 2021-11-04 ##
 
 ### Fixed ###
 - Running git-flow-silent-release with npx on Windows
@@ -22,4 +22,5 @@ Initial release
 
 
 
+[1.0.1]: https://github.com/j-ulrich/git-flow-silent-release/releases/tag/1.0.1
 [1.0.0]: https://github.com/j-ulrich/git-flow-silent-release/releases/tag/1.0.0
