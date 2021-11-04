@@ -9,6 +9,16 @@
 						"flags": "g"
 					},
 					"replace": "$1opyright $2${3}{{now:yyyy}}"
+				},
+				{
+					"file": "CHANGELOG.md",
+					"search": "Unreleased",
+					"replace": "[{{version}}] - {{now:YYYY-MM-DD}}"
+				},
+				{
+					"file": "CHANGELOG.md",
+					"search": "(\\[\\d+\\.\\d+\\.\\d+\\]: http)",
+					"replace": "[{{version}}]: https://github.com/j-ulrich/git-flow-silent-release/releases/tag/{{version}}\n$1"
 				}
 			]
 		}
