@@ -13,7 +13,7 @@
 				{
 					"file": "CHANGELOG.md",
 					"search": "Unreleased",
-					"replace": "[{{version}}] - {{now:YYYY-MM-DD}}"
+					"replace": "[{{version}}] - {{now:yyyy-MM-dd}}"
 				},
 				{
 					"file": "CHANGELOG.md",
